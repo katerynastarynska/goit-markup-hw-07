@@ -13,8 +13,10 @@
   .about-us-list {
     display: flex;
   }
-  .about-us-item:not(:last-child) {
-    margin-right: 30px;
+  .about-us-item { 
+    &:not(:last-child) {
+      margin-right: 30px;
+   }
   }
   .about-us-item-wrap {
     position: relative;
