@@ -322,6 +322,7 @@ body {
 }
 
 .header-logo {
+  display: block;
   margin-right: 93px;
   font-family: Raleway;
   font-weight: 700;
@@ -655,7 +656,7 @@ body {
   fill: currentColor;
 }
 
-.footer-address-tel {
+.footer-address-tel, .footer-address-mail {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -663,19 +664,7 @@ body {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-address-tel:hover, .footer-address-tel:focus {
-  color: var(--accent-color);
-}
-
-.footer-address-mail {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--fourth-text-color);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-address-mail:hover, .footer-address-mail:focus {
+.footer-address-tel:hover, .footer-address-mail:hover, .footer-address-tel:focus, .footer-address-mail:focus {
   color: var(--accent-color);
 }
 

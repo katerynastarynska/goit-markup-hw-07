@@ -57,13 +57,11 @@
  
   .modal-title {
     margin-bottom: 12px;
-    font-weight: 700; 
-    font-size: 20px; 
-    line-height: 1.15; 
-    text-align: center; 
-    letter-spacing: 0.03em;
-    color: var(--second-text-color)
+    @include title(700, 20px, 1.15, 0.03em);
+    text-align: center;
+    color: var(--second-text-color);
   }
+  
   .modal-form-info {
     margin-bottom: 10px;
   }
@@ -176,7 +174,6 @@
         border-radius: 2px;
       }
   }
- 
   .icon-checkmark {
     fill: #FFFFFF;
   }
@@ -186,7 +183,6 @@
       border: none;
     }
   }
-  
   .agreemnet-link {
     color: var(--accent-color);
     text-decoration: underline;

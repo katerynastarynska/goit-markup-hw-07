@@ -1,12 +1,9 @@
 .about-us-title {
-    margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.67;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--second-title-color);
-  }
+  margin-bottom: 50px;
+  @include title(700, 36px, 1.67, 0.03em);
+  text-align: center;
+  color: var(--second-title-color);
+}
   .about-us {
     padding-bottom: 94px;
   }
@@ -25,10 +22,7 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    font-weight: 700; 
-    font-size: 14px; 
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    @include title(700, 14px, 1.14, 0.03em);
     text-transform: uppercase;
     padding-top: 27px;
     padding-bottom: 27px;
