@@ -55,14 +55,14 @@
     }
   }
   
-  .filter-examples-title {
+  .filter-examples__title {
     margin-bottom: 4px;
     @include title(700, 18px, 2, 0.06em);
     text-align: left;
     color: var(--second-title-color);
     background-color: var(--background-color-third-color);
   }
-  .filter-examples-text {
+  .filter-examples__text {
     font-size: 16px;
     line-height: 1.88;
     text-align: left;
@@ -70,14 +70,14 @@
     color: var(--first-text-color);
     background-color: var(--background-color-third-color);
   }
-  .filter-examples-main-text {
+  .filter-examples__main-text {
     padding: 20px 24px;
   }
-  .filter-examples-item-wrap {
+  .filter-examples__item-wrap {
     position: relative;
     overflow: hidden;
   }
-  .filter-examples-description-text {
+  .filter-examples__description-text {
     position: absolute;
     top: 0;
     left: 0; 
