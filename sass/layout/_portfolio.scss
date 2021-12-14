@@ -7,7 +7,7 @@
     margin-bottom: 50px;
     justify-content: center;
   }
-  .filter-item {
+  .filter-list__item {
     &:not(:last-child) {
       margin-right: 8px;
     }
@@ -16,7 +16,7 @@
     display: flex;
     flex-wrap: wrap;
   }
-  .filter-examples-item {
+  .filter-examples__item {
     margin-right: 30px;
     margin-bottom: 30px;
     width: 370px; 

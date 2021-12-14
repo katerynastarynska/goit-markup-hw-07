@@ -1,4 +1,4 @@
-.about-us-title {
+.about-us__title {
   margin-bottom: 50px;
   @include title(700, 36px, 1.67, 0.03em);
   text-align: center;
@@ -7,18 +7,18 @@
   .about-us {
     padding-bottom: 94px;
   }
-  .about-us-list {
+  .about-us__list {
     display: flex;
   }
-  .about-us-item { 
+  .about-us__item { 
     &:not(:last-child) {
       margin-right: 30px;
    }
   }
-  .about-us-item-wrap {
+  .about-us__item-wrap {
     position: relative;
   }
-  .about-us-item-text {
+  .about-us__item-text {
     position: absolute;
     left: 0;
     bottom: 0;

@@ -2,7 +2,7 @@
     padding-top: 94px;
     padding-bottom: 94px;
   }
-  .clients-title {
+  .clients__title {
     margin-bottom: 50px;
     @include title(700, 36px, 1.17, 0.03em);
     text-align: center;
@@ -12,14 +12,14 @@
   .clients-list {
     display: flex;
   }
-  .clients-item {
+  .clients-list__item {
     width: 170px;
     height: 92px;
     &:not(:last-child) {
       margin-right: 30px;
     }
   }
-  .clients-link {
+  .clients-list__link {
     border: 1px solid #AFB1B8;
     box-sizing: border-box;
     border-radius: 4px; 
@@ -37,6 +37,6 @@
       border-color: var(--accent-color);
     }
   }
-  .clients-icon {
+  .clients-list__icon {
     fill: currentColor ;
   }
