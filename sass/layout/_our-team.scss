@@ -43,30 +43,3 @@
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.socials__item {
-  width: 44px;
-  height: 44px;
-  &:not(:last-child) {
-    margin-right: 10px;
-  }
-}
-.socials {
-  display: flex;
-  justify-content: center;
-}
-.socials__link {
-  @include social-link(flex, center, center, 100%, 100%, 50%, #AFB1B8, transparent);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus {
-    background-color: var(--accent-color)
-  }
-}
-
-.socials__icon {
-  fill: #AFB1B8 ;
-  .our-team-social-link:hover &,
-  .our-team-social-link:focus & {
-    fill: #FFFFFF;  
-  }
-}
