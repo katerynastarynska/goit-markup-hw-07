@@ -55,6 +55,9 @@
   .header-contacts {
     display: flex;
     margin-left: auto;
+  }
+
+  .header-contacts__link {
     align-items: center;
     font-weight: 500;
     font-size: 14px;
@@ -67,6 +70,7 @@
     &:focus {
       color: var(--accent-color);
     }
+
   }
    .header-contacts__item {
     &:not(:last-child) {
